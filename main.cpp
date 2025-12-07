@@ -13,8 +13,15 @@ int main(){
     afficherMenu();
     cout << "Votre choix : ";
     cin >> choix;
-    cout << "Votre choix est : " << choix << endl;
-    choixMenu(choix);
+    if (!cin.good()) {
+        cout << "Erreur de saisie." << endl << endl;
+        cin.clear(); // Effacer les indicateurs d'erreur
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // on vide tout
+        main();
+    } else {
+        cout << "Votre choix est : " << choix << endl;
+        choixMenu(choix);
+    }
     return 0;
 }
 
@@ -76,7 +83,7 @@ void choixMenu(int choix) {
             cout << "Sortie" << endl;
             break;
         default:
-            cout << "Choix non implemente, choisir une autre touche svp" << endl;
+            cout << "Choix non implemente, choisir une autre touche svp" << endl << endl;
             main();
             break;
     }

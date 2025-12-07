@@ -10,6 +10,7 @@
 #define GESTIONCENTRALISEELOGS_MAIN_H
 
 #include <iostream>
+#include <limits>
 
 using namespace std;
 
