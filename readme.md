@@ -1,4 +1,4 @@
-## Gestion centralisée des logs
+## Gestion centralisée de logs
 
 
 

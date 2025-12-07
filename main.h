@@ -19,4 +19,11 @@ using namespace std;
 * @return int : renvoie 0 si aucune erreur
 */
 int main();
+
+/**
+* @fn void afficherMenu();
+* @brief Fonction qui permet l'affichage du menu
+* @return void : ne renvoie rien.
+*/
+void afficherMenu();
 #endif //GESTIONCENTRALISEELOGS_MAIN_H
