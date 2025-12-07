@@ -18,7 +18,8 @@ set(SRCS
 
 #2/3-Ajouter les fichiers headers de votre projet
 set(HEADERS
-#   Dossier/classe.h
+        main.h
+        #   Dossier/classe.h
     )
 
 #3/3-Ajouter les noms des dossiers de vos modules
