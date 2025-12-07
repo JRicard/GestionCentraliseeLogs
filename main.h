@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include <limits>
+#include "Menu/menu.h"
 
 using namespace std;
 
@@ -21,17 +22,4 @@ using namespace std;
 */
 int main();
 
-/**
-* @fn void afficherMenu();
-* @brief Fonction qui permet l'affichage du menu
-* @return void : ne renvoie rien.
-*/
-void afficherMenu();
-
-/**
-* @fn void choixMenu(int choix);
-* @brief Fonction qui permet l'affichage du choix de l'utilisateur
-* @return void : ne renvoie rien.
-*/
-void choixMenu(int choix);
 #endif //GESTIONCENTRALISEELOGS_MAIN_H
