@@ -19,6 +19,8 @@ set(SRCS
 #2/3-Ajouter les fichiers headers de votre projet
 set(HEADERS
         main.h
+        Menu.cpp
+        Menu.h
         #   Dossier/classe.h
     )
 
