@@ -26,4 +26,11 @@ int main();
 * @return void : ne renvoie rien.
 */
 void afficherMenu();
+
+/**
+* @fn void choixMenu(int choix);
+* @brief Fonction qui permet l'affichage du choix de l'utilisateur
+* @return void : ne renvoie rien.
+*/
+void choixMenu(int choix);
 #endif //GESTIONCENTRALISEELOGS_MAIN_H
