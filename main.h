@@ -12,6 +12,7 @@
 #include <iostream>
 #include <limits>
 #include "Menu/menu.h"
+#include "Logs/log.h"
 
 using namespace std;
 
